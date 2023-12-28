@@ -42,7 +42,11 @@ const CardCarousel = () => {
                         ${
                           index === activeCard
                             ? 'scale-100 z-30'
+<<<<<<< HEAD
                             : 'scale-90 opacity-20'
+=======
+                            : 'scale-90 opacity-10'
+>>>>>>> e46a4a5f4af53758d2dba009f7ecf617d9507453
                         }
                         ${
                           index ===
