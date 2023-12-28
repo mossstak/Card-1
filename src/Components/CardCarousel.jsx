@@ -22,7 +22,7 @@ const CardCarousel = () => {
                         ${
                           index === activeCard
                             ? 'scale-100 z-30'
-                            : 'scale-90 opacity-50'
+                            : 'scale-90 opacity-10'
                         }
                         ${
                           index === (activeCard - 1 + totalCards) % totalCards
